@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 400 600 700;
+  background-color: hsl(13, 31%, 94%);
+  text-align: left;
+  font-size: 16px;
+}
+.image {
+  width: 100%;
+  border-radius: 1rem;
+}
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding: 2rem;
+}
+.container__h1 {
+  color: #2b0f0b;
+  margin: 1rem 0;
+  font-weight: bolder;
+}
+.add-cart {
+  display: flex;
+  position: absolute;
+  background-color: hsl(20, 50%, 98%);
+  border-radius: 2rem;
+  z-index: 1;
+}
+.cart,
+.cart__h2 {
+  padding: 0.5rem;
+}
+.cart__h2 {
+  padding-right: 1rem;
+}
+.cart {
+  padding-left: 1rem;
+}
+.waffle,
+.brulee,
+.macaron,
+.tiramisu,
+.pistachio,
+.lemon,
+.velvet,
+.caramel,
+.caramel,
+.pannacolta {
+  position: relative;
+}
+.waffle-cart,
+.brulee-cart,
+.macaron-cart,
+.tiramisu-cart,
+.pistachio-cart,
+.lemon-cart,
+.velvet-cart,
+.caramel-cart,
+.pannacolta-cart {
+  top: 45%;
+  left: 18%;
+  cursor: pointer;
+}
+.details {
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+.space {
+  margin-bottom: 20px;
+}
+.name {
+  color: hsl(14, 25%, 72%);
+  font-size: 1.8rem;
+}
+.price {
+  color: hsl(14, 86%, 42%);
+  font-weight: bolder;
+}
+.description {
+  color: #1e100f;
+}
+.quantity {
+  background-color: hsl(20, 50%, 98%);
+  height: 280px;
+  position: relative;
+  border-radius: 10px;
+  position: relative;
+}
+.cart-feed {
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: hsl(14, 86%, 42%);
+}
+.illustration-empty-cart {
+  left: 8rem;
+  position: absolute;
+}
+.cart-items {
+  bottom: 15px;
+  position: absolute;
+  padding: 0 1rem 1rem 2rem;
+  color: hsl(14, 25%, 72%);
+}
+@media (min-width: 1440px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, auto); /* 3 rows */
+    gap: 2rem; /* Space between grid items */
+    max-width: 1440px; /* Adjust container max width */
+  }
+}
+
+.container__h1 {
+  color: #2b0f0b;
+  margin: 1rem 0;
+  font-weight: bolder;
+}
+
+.add-cart {
+  display: flex;
+  position: absolute;
+  background-color: hsl(20, 50%, 98%);
+  border-radius: 2rem;
+  z-index: 1;
+}
+
+.cart,
+.cart__h2 {
+  padding: 0.5rem;
+}
+
+.cart__h2 {
+  padding-right: 1rem;
+}
+
+.cart {
+  padding-left: 1rem;
+}
+
+.waffle,
+.brulee,
+.macaron,
+.tiramisu,
+.pistachio,
+.lemon,
+.velvet,
+.caramel,
+.pannacolta {
+  position: relative;
+}
+
+.waffle-cart,
+.brulee-cart,
+.macaron-cart,
+.tiramisu-cart,
+.pistachio-cart,
+.lemon-cart,
+.velvet-cart,
+.caramel-cart,
+.pannacolta-cart {
+  top: 45%;
+  left: 18%;
+  cursor: pointer;
+}
+
+.details {
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+
+.space {
+  margin-bottom: 20px;
+}
+
+.name {
+  color: hsl(14, 25%, 72%);
+  font-size: 1.8rem;
+}
+
+.price {
+  color: hsl(14, 86%, 42%);
+  font-weight: bolder;
+}
+
+.description {
+  color: #1e100f;
+}
+
+.quantity {
+  background-color: hsl(20, 50%, 98%);
+  height: 280px;
+  position: relative;
+  border-radius: 10px;
+  position: relative;
+}
+
+.cart-feed {
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: hsl(14, 86%, 42%);
+}
+
+.illustration-empty-cart {
+  left: 8rem;
+  position: absolute;
+}
+
+.cart-items {
+  bottom: 15px;
+  position: absolute;
+  padding: 0 1rem 1rem 2rem;
+  color: hsl(14, 25%, 72%);
+}
